@@ -1,0 +1,4 @@
+# ads.txt — required by Google AdSense.
+# After AdSense approval, replace the line below with your real publisher ID
+# (find it at adsense.google.com → Account → Account information), then remove the leading '#'.
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
