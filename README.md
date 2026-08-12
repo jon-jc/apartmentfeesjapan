@@ -33,6 +33,22 @@ Optional configuration — copy [.env.example](.env.example) to `.env.local`:
 
 Deployment and monetization steps: [SETUP.md](SETUP.md).
 
+## Icons
+
+The browser icon is an apartment block in the app's indigo-to-violet accent
+gradient, shipped in three forms that Next.js picks up automatically from
+`src/app/`:
+
+| File | Purpose |
+|---|---|
+| `icon.svg` | Vector — crisp at any size, used by modern browsers |
+| `favicon.ico` | Multi-resolution 16/32/48px raster for legacy clients and crawlers |
+| `apple-icon.png` | 180×180 iOS home-screen icon, full-bleed for the iOS mask |
+
+The 16px entry is rendered from a simplified variant with two window bands
+rather than individual windows: at that size each window lands on roughly one
+pixel and antialiases into grey mush.
+
 ## Disclaimer
 
 Rent figures are aggregated estimates from public market-rate pages, for planning only — actual costs vary by property, landlord, and agency. Not financial advice.
